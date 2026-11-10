@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 function AddProjectForm({ onAddProject, onCancel }) {
-  // Local state for the form inputs
+  // Local  form inputs
   const [title, setTitle] = useState("");
   const [category, setCategory] = useState("");
   const [description, setDescription] = useState("");
